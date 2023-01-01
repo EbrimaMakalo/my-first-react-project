@@ -33,7 +33,7 @@ function Main() {
             </button>
 
             <div className='top-span'>
-                <div className='span-xtra'>
+                <div className='span-extra'>
                     <div>
                         <h1>Earth - G-001</h1>
                         <div className='departure-return-date'>
@@ -51,7 +51,7 @@ function Main() {
                     </div>
                 </div>
                 <div>
-                    <h1>$9,650</h1>
+                    <h1 className='top-span-payment-h1'>$9,650</h1>
                     <p className='top-span-date'>per 1 person</p>
                 </div>
             </div>
@@ -82,7 +82,7 @@ function Main() {
                         </div>
                         <div>
                             <p className='inner-date'>31 days in flight</p>
-                            <h1>$4,800</h1>
+                            <h1 className='inner-date-payment'>$4,800</h1>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ function Main() {
                         </div>
                         <div>
                             <p className='inner-date'>30 days in flight</p>
-                            <h1>$4,850</h1>
+                            <h1 className='inner-date-payment'>$4,850</h1>
                         </div>
                     </div>
                 </div>

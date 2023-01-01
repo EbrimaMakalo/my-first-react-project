@@ -23,7 +23,7 @@
 }
 
 .request-button {
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 10px;
     color: white;
     background-color: #424449; 
@@ -53,11 +53,12 @@ body {
 
 .next-step-button {
     background-color: #EE6024;
-    padding: 10px 30px;
+    padding: 15px 40px;
     border-radius: 10px;
     color: white;
     font-weight: bold;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .spacex-img {
@@ -77,6 +78,14 @@ body {
     padding: 10px 30px;
 }
 
+.top-span-date {
+    color: #707176;    
+}
+
+.top-span-payment-h1 {
+    padding-left: 20px;
+}
+
 .departure-return-date {
     display: flex;
 }
@@ -93,11 +102,7 @@ body {
     border-radius: 50%;
 }
 
-.top-span-date {
-    color: #707176;    
-}
-
-.span-xtra {
+.span-extra {
     display: flex;
 }
 
@@ -145,6 +150,14 @@ body {
 
 .inner-extra-spacing {
     display: flex;
+}
+
+.inner-date {
+    color: #707176;
+}
+
+.inner-date-payment {
+    padding-left: 52px;    
 }
 
 #arrow-div-spacing {
@@ -240,8 +253,4 @@ body {
     margin-left: 30px;
     color: #707176;
     font-weight: bold;
-}
-
-.inner-date {
-    color: #707176;
 }
